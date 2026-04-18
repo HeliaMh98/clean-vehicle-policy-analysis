@@ -92,7 +92,7 @@ clean-vehicle-policy-analysis/
 │       ├── cate_analysis.py        # Conditional ATE heterogeneity analysis
 │       └── visualizations.py      # Forest plots, choropleth maps, event studies
 │
-├── figures/                        # Publication-ready output figures
+├── figures/                        # Output figures
 ├── outputs/                        # ATE tables, CATE results, classification outputs
 │
 ├── requirements.txt

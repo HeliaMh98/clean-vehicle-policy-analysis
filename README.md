@@ -75,11 +75,6 @@ clean-vehicle-policy-analysis/
 ├── data/
 │   └── README.md                   # Data sources, download instructions, panel construction
 │
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb      # AFDC ingestion, cleaning, panel construction
-│   ├── 02_llm_classification.ipynb # LLM pipeline walkthrough with example outputs
-│   ├── 03_drdml_estimation.ipynb   # DR/DML estimation and results
-│   └── 04_visualizations.ipynb     # Forest plots, maps, event studies
 │
 ├── src/
 │   ├── llm_classification/

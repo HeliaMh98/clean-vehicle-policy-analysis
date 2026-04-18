@@ -109,7 +109,7 @@ clean-vehicle-policy-analysis/
 | BEV | Weight & Capacity Advantages | +2.47 | [0.88, 4.05] | ✓ |
 | BEV | Access & Convenience Benefits | +1.60 | [0.02, 3.18] | ✓ |
 
-*ATE = Average Treatment Effect in percentage points. Estimation uses cluster-robust standard errors (state-level). Full results in `outputs/ate_results.csv`.*
+*ATE = Average Treatment Effect in percentage points. Estimation uses cluster-robust standard errors (state-level).*
 
 ---
 
@@ -161,16 +161,3 @@ See `requirements.txt` for the full list. Core packages:
 - `openai`, `anthropic` — LLM API clients
 - `matplotlib`, `seaborn`, `plotly`, `geopandas` — visualization
 
----
-
-## Citation
-
-
-
-## Contact
-
-For questions about this repository, please open a GitHub issue or reach out via email.
-
----
-
-*This project is part of ongoing dissertation research in the Department of Civil and Environmental Engineering at Penn State University.*

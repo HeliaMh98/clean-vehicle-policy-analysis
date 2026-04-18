@@ -79,13 +79,11 @@ clean-vehicle-policy-analysis/
 ├── src/
 │   ├── llm_classification/
 │   │   ├── classify_policies.py    # Main LLM classification pipeline
-│   │   ├── prompt_templates.py     # Structured prompts for GPT and Claude
-│   │   └── agreement_analysis.py  # Cross-provider agreement computation
+│   │   └── prompt_templates.py     # Structured prompts for GPT and Claude
+│   │   
 │   │
 │   └── drdml/
-│       ├── drdml_estimator.py      # DR/DML estimation with cross-fitting
-│       ├── cate_analysis.py        # Conditional ATE heterogeneity analysis
-│       └── visualizations.py      # Forest plots, choropleth maps, event studies
+│       └── drdml_estimator.py      # DR/DML estimation with cross-fitting
 │
 ├── figures/                        # Output figures
 ├── outputs/                        # ATE tables, CATE results, classification outputs

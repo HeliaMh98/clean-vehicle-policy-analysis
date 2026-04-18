@@ -94,7 +94,7 @@ clean-vehicle-policy-analysis/
 
 ---
 
-## Key Findings
+## Key Findings from the authors' analysis
 
 | Vehicle Type | Policy Mechanism | ATE (pp) | 95% CI | Significant |
 |---|---|---|---|---|
@@ -127,7 +127,7 @@ export ANTHROPIC_API_KEY="your-anthropic-key"
 
 ### Running the Pipeline
 
-First, download and prepare data by following the instructions in [`data/README.md`](data/README.md). Then run notebooks in order (01 → 04), or use individual scripts:
+First, download and prepare data by following the instructions in [`data/README.md`](data/README.md). Then run the scripts directly:
 
 ```bash
 # LLM classification only
